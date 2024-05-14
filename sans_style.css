@@ -1,0 +1,33 @@
+/* Universal Styling */
+body {
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Dialogue Box Styling */
+.dialogue-box {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 20px;
+    border: 4px solid white; 
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); 
+}
+
+/* Sans Text Styling */
+#sans-text {
+    font-size: 24px;
+    margin: 0;
+    opacity: 0;
+    position: relative;
+    white-space: pre-wrap;
+}
